@@ -326,7 +326,9 @@ header .right button {
 }
 
 .skills-grid .skill-card img {
-    width: 100%;
+    width: 60%;
+    display: block;
+    margin: auto;
 }
 
 .skills-grid .skill-card span {
