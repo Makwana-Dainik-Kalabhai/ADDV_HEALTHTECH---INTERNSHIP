@@ -1,0 +1,16 @@
+.public-header .menus a {
+    border-radius: 1rem;
+    transition: all 0.2s linear;
+}
+
+.public-header .menus a:hover {
+    background-color: rgba(128, 128, 128, 0.05);
+}
+
+.public-header .menus a.active {
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+.public-header .login-btns a:last-of-type {
+    background-color: rgba(0, 0, 0, 0.7);
+}

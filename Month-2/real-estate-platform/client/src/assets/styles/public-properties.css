@@ -1,0 +1,33 @@
+.public-properties-page {
+    padding: 0 !important;
+}
+
+.public-properties-page .filters {
+    height: 110vh;
+    z-index: 1;
+    box-shadow: 2px 3px 5px 1px #f2f2f2;
+}
+
+.public-properties-page .properties-grid {
+    z-index: 1;
+    max-height: 110vh;
+    overflow-y: auto;
+    background-color: #f2f2f2;
+}
+
+.public-properties-page .properties-grid .card {
+    cursor: pointer;
+}
+.public-properties-page .properties-grid .card:hover {
+    scale: 1.05;
+}
+.public-properties-page .properties-grid:has(.card:hover) .card:not(:hover) {
+    scale: 0.95;
+}
+
+.public-properties-page .properties-grid img {
+    max-height: 190px;
+    object-fit: cover;
+    filter: brightness(120%);
+    filter: contrast(120%);
+}

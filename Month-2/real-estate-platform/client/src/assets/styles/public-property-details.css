@@ -1,0 +1,54 @@
+.public-property-details {
+    position: relative;
+    z-index: 1;
+}
+.public-property-details img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.public-property-details .side-images img {
+    max-height: 85px;
+    object-fit: cover;
+}
+
+.public-property-details .side-images img.active {
+    border: 2px solid black;
+}
+.public-property-details .side-images img:hover {
+    border: 2px solid grey;
+}
+
+
+.public-property-details .main-images img {
+    display: none;
+    max-height: 400px;
+    object-fit: cover;
+}
+.public-property-details .main-images img.active {
+    display: block;
+}
+
+.public-property-details .more-details {
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px #f2f2f2;
+}
+.public-property-details .more-details .tabs {
+    border-bottom: 2px solid grey;
+}
+
+.public-property-details .more-details .tabs button {
+    border: none;
+    background-color: transparent;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.public-property-details .more-details .tabs button:hover {
+    outline: 2px solid rgba(128, 128, 128, 0.7);
+    outline-top: 2px solid rgba(128, 128, 128, 0.7);
+    outline-right: 2px solid rgba(128, 128, 128, 0.7);
+}
+.public-property-details .more-details .tabs button.active {
+    outline: 2px solid grey;
+    outline-top: 2px solid grey;
+    outline-right: 2px solid grey;
+}
